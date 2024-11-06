@@ -1,0 +1,86 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal con márgenes */
+.main-container {
+    width: 100%;
+    max-width: calc(100% - 300px);
+    margin: 0 auto;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    justify-content: space-between; /* Esto distribuye el espacio entre los elementos */
+}
+
+.search-icon {
+    margin-left: auto; /* Esto mueve el icono de la lupa a la derecha */
+}
+
+.search-icon i {
+    color: #fff;
+    font-size: 24px; /* Tamaño adecuado del icono */
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+/* Barra de búsqueda */
+.search-bar-container {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-left:100px;
+    margin-right: 100px;
+    max-width: calc(100% - 300px);
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
